@@ -5,45 +5,88 @@
         <style>
             .thumbnail{
                 width: 300px;
-                display:block
+                display: block;
             }
             .search-bar{
-                font-size: 20px;
-                margin-left: 12px ;
+                display: block;
             }
 
             .video-title{
                 width: 300px;
             }
 
-            .video-author,
-            .video-stats{
+           .video-preview{
+                width: 300px;
                 display: inline-block;
+                vertical-align: top;
+                margin-right: 15px;
+            }
+                
+            /* .red-square{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                border-radius: 50%;
             }
 
+            .green-circle{
+                width: 100px;
+                height: 100px;
+                background-color: green;
+                border-radius: 50%;
+                margin-top: 20px;
+            }     */
         </style>
     </head>
     <body>
-        <input class="search-bar" type="text"
-        placeholder="Search">
-        <img src="thumbnails/thumbnail-1.webp">
+        <input class="search-bar" type="text" placeholder="Search">
+        
+        <div class="video-preview">
+      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
         
 
-        <p class="video-title">
+        
+          <p class="video-title">
             
-            Talking Tech <strong>and AI with</strong> Google CEO Sundar Pichai!
+            Talking Tech and AI with 
+            Google CEO Sundar Pichai!
          </p>
-        <p class="video-author">
+        
+         <p class="video-author">
             Marques Brownlee
+        
         </p>
         <p class="video-stats">
-            3.4M views &#124; 6 months ago
-        </p>
-        <div>
-            this is a dev
+            3.4M views &#183; 6 months ago
+        </p>  
         </div>
+
+        <div class="video-preview">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        
+          <p class="video-title">
+            Try Not To 
+            Laugh Challenge #9
+         </p>
+        
+         <p class="video-author">
+            Markiplier
+        
+        </p>
+        <p class="video-stats">
+            19M views &#183; 4 years ago
+        </p>  
+        </div>
+    
+        <!-- <div class="red-square"></div>
+
+        <div class="green-circle"></div> -->
+    
+    
+    
+    
     </body>
-</html>
+    </html>
 
 <!-- Block element is takes up the entire line  -->
  <!-- inline-block element is only takes up as much space as needed-->
@@ -51,3 +94,6 @@
    <!-- a common , means that we are going to targe both the video author class
     and the video sates class of styles-->
     <!-- <div> is divison and it means just a box-->
+    <!-- <div> can contain other elements-->
+    <!-- block element is to take up the entire line in their container-->
+    <!-- inline-block elemtn is only takes up as much space as needed-->
