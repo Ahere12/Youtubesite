@@ -11,10 +11,6 @@
                 display: block;
             }
 
-            .video-title{
-                width: 300px;
-            }
-
            .video-preview{
                 width: 300px;
                 display: inline-block;
@@ -22,6 +18,21 @@
                 margin-right: 15px;
             }
                 
+            .channel-picture {
+               display: inline-block; 
+               width: 50px;
+            }
+            
+            .video-info{
+                display: inline-block; 
+                width: 200px;
+            }
+            
+            .profile-picture{
+                width: 50px;
+                
+            }
+            
             /* .red-square{
                 width: 100px;
                 height: 100px;
@@ -36,29 +47,76 @@
                 border-radius: 50%;
                 margin-top: 20px;
             }     */
+
+            /* survey-box */
+
+            /* .survey-box {
+                border: 1px solid #ccc;
+                padding: 15px;
+                width: 500px;
+                font-family: sans-serif;
+                }
+
+            .survey-box p {
+                margin-top: 0;
+                margin-bottom: 10px;
+                }
+
+            .survey-box button {
+                padding: 5px 15px;
+                margin-right: 5px;
+                cursor: pointer;
+                } */
+
+            /* .Youtube-Music {
+                background-color: #212121;
+                color: white;
+                padding: 20px;
+                font-family: sans-serif;
+                max-width: 450px;
+                }
+
+            .Youtube-Music .title {
+                font-size: 20px;
+                font-weight: bold;
+                margin: 0 0 8px 0;
+                }
+
+             .Youtube-Music .description {
+                font-size: 14px;
+                color: #aaaaaa;
+                margin: 0;
+                } */
+
         </style>
     </head>
     <body>
         <input class="search-bar" type="text" placeholder="Search">
         
         <div class="video-preview">
-      <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-        
-
-        
-          <p class="video-title">
+            <div class="thumbnail-row">
+            <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        </div>
+            <div>
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-pictures/channel-1.jpeg"
+                </div>
+                <div class="video-info">
+                     <p class="video-title">
             
-            Talking Tech and AI with 
-            Google CEO Sundar Pichai!
-         </p>
-        
-         <p class="video-author">
-            Marques Brownlee
-        
-        </p>
-        <p class="video-stats">
-            3.4M views &#183; 6 months ago
-        </p>  
+                    Talking Tech and AI with 
+                    Google CEO Sundar Pichai!
+                    </p>
+                
+                <p class="video-author">
+                    Marques Brownlee
+                
+                </p>
+                <p class="video-stats">
+                    3.4M views &#183; 6 months ago
+                </p>   
+                </div>
+            </div>
         </div>
 
         <div class="video-preview">
@@ -82,7 +140,17 @@
 
         <div class="green-circle"></div> -->
     
-    
+        <!-- <div class=" survey-box">
+            <p>Satisfied with our service?</p>
+            <button>Yes</button>
+            <button>No</button>
+        </div> -->
+
+       <!-- <div class="Youtube-Music">
+        <p class="title">Install YouTube Music</p>
+        <p class="description">Add YouTube Music to your desktop for quick and
+             easy access</p>
+        </div> -->
     
     
     </body>
@@ -97,3 +165,11 @@
     <!-- <div> can contain other elements-->
     <!-- block element is to take up the entire line in their container-->
     <!-- inline-block elemtn is only takes up as much space as needed-->
+
+    <!--                                LAYOUTS                                 -->
+   
+   
+    <!-- vertical layout looks like where items are on top of each other and--> 
+    <!--second horzontal layout is where items are beside eadch other-->
+    <!-- Using a combiunation of vertical and horizontal layouts 
+     we can creat almost anything that we see on a website-->
